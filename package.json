@@ -1,0 +1,20 @@
+{
+  "name": "adventofcode-2017",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "refmt": "refmt",
+    "exec": "nodemon src/Day1.bs.js"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^3.0.0",
+    "nodemon": "^1.17.3"
+  }
+}
